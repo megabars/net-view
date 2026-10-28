@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+results/
+target/
+.cache/
+.idea/
+*.iml
+.env
+.env.*
+!.env.example
+*.pcap
+*.pcapng
+*.netview.json
+!tests/fixtures/*.netview.json
+!src/test/resources/parity/*.netview.json

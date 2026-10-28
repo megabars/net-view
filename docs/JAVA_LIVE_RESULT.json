@@ -1,0 +1,138 @@
+{
+  "engine": "Java",
+  "run_id": "20261028-205141-c9d38728",
+  "passed": true,
+  "live_capture_verified": true,
+  "client_pid": 55478,
+  "server_pid": 55477,
+  "packet_count": 60,
+  "connection_count": 4,
+  "raw_bytes": 137062,
+  "captured_interfaces": [
+    "lo0"
+  ],
+  "metadata_directions": [
+    "in",
+    "out"
+  ],
+  "attributed_pids": [
+    55478
+  ],
+  "attributed_effective_pids": [],
+  "capture_stats": {
+    "dropped": 0,
+    "kernel_dropped": 0
+  },
+  "capture_errors": [],
+  "java_streams_match_python": true,
+  "java_stderr_tail": "",
+  "java_exit_code": 0,
+  "session_saved": true,
+  "failure": null,
+  "source_report": "results/java-live-20261028-205141-c9d38728.report.json",
+  "source_report_sha256": "c30841f1414bb2fefe681c145fc68e2db8b4efb4b5ebb6187a38b815698153f5",
+  "session": "results/java-live-20261028-205141-c9d38728.netview.json",
+  "session_sha256": "035cb5fd9b135ddc160d5dae2008b2bb8e2c49a16a73728fdfecc15407451deb",
+  "command": "./scripts/check-live-java.sh",
+  "provenance": "Real macOS loopback capture by Java of controlled Python network_lab traffic; launched by the user after Terminal authentication. This report does not verify JavaFX interactions.",
+  "scenarios": [
+    {
+      "scenario": "http",
+      "protocol": "HTTP",
+      "client_matched": true,
+      "passed": true,
+      "directions": {
+        "request": {
+          "passed": true,
+          "body_bytes": 223,
+          "sha256": "56219cf5db6a871d87aa30fdd052fff40586a1b04799ce735a7dc5618f4bb3f5",
+          "expected_sha256": "56219cf5db6a871d87aa30fdd052fff40586a1b04799ce735a7dc5618f4bb3f5",
+          "stream_issues": []
+        },
+        "response": {
+          "passed": true,
+          "body_bytes": 223,
+          "sha256": "56219cf5db6a871d87aa30fdd052fff40586a1b04799ce735a7dc5618f4bb3f5",
+          "expected_sha256": "56219cf5db6a871d87aa30fdd052fff40586a1b04799ce735a7dc5618f4bb3f5",
+          "stream_issues": []
+        }
+      }
+    },
+    {
+      "scenario": "http-large",
+      "protocol": "HTTP",
+      "client_matched": true,
+      "passed": true,
+      "directions": {
+        "request": {
+          "passed": true,
+          "body_bytes": 65775,
+          "sha256": "48a718fa2dd2ce05fd2bc9b6e317b5630dfb46cc62a6207c942e76e56e5fa5a5",
+          "expected_sha256": "48a718fa2dd2ce05fd2bc9b6e317b5630dfb46cc62a6207c942e76e56e5fa5a5",
+          "stream_issues": []
+        },
+        "response": {
+          "passed": true,
+          "body_bytes": 65775,
+          "sha256": "48a718fa2dd2ce05fd2bc9b6e317b5630dfb46cc62a6207c942e76e56e5fa5a5",
+          "expected_sha256": "48a718fa2dd2ce05fd2bc9b6e317b5630dfb46cc62a6207c942e76e56e5fa5a5",
+          "stream_issues": []
+        }
+      }
+    },
+    {
+      "scenario": "tcp",
+      "protocol": "TCP",
+      "client_matched": true,
+      "passed": true,
+      "directions": {
+        "request": {
+          "passed": true,
+          "body_bytes": 222,
+          "sha256": "eca154c025c4cdd6bd85c8bd12cce67e862d4c13a2bf36130a1a6bc7a0be8f07",
+          "expected_sha256": "eca154c025c4cdd6bd85c8bd12cce67e862d4c13a2bf36130a1a6bc7a0be8f07",
+          "stream_issues": []
+        },
+        "response": {
+          "passed": true,
+          "body_bytes": 222,
+          "sha256": "eca154c025c4cdd6bd85c8bd12cce67e862d4c13a2bf36130a1a6bc7a0be8f07",
+          "expected_sha256": "eca154c025c4cdd6bd85c8bd12cce67e862d4c13a2bf36130a1a6bc7a0be8f07",
+          "stream_issues": []
+        }
+      }
+    },
+    {
+      "scenario": "udp",
+      "protocol": "UDP",
+      "client_matched": true,
+      "passed": true,
+      "directions": {
+        "request": {
+          "passed": true,
+          "body_bytes": 222,
+          "sha256": "dd85adfd6bd6b340c600424536f993be535959b9ae0832cd36be9262f49069d7",
+          "expected_sha256": "dd85adfd6bd6b340c600424536f993be535959b9ae0832cd36be9262f49069d7",
+          "stream_issues": []
+        },
+        "response": {
+          "passed": true,
+          "body_bytes": 222,
+          "sha256": "dd85adfd6bd6b340c600424536f993be535959b9ae0832cd36be9262f49069d7",
+          "expected_sha256": "dd85adfd6bd6b340c600424536f993be535959b9ae0832cd36be9262f49069d7",
+          "stream_issues": []
+        }
+      }
+    }
+  ],
+  "java_reopened": {
+    "packets": 60,
+    "connections": 4,
+    "raw_bytes": 137062,
+    "limit_reached": false,
+    "notes": [
+      "Java native macOS capture; selected PID 55478; duration after readiness 10 seconds",
+      "Adapter dropped=0; kernel dropped=0"
+    ]
+  }
+}

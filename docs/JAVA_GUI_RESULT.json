@@ -1,0 +1,198 @@
+{
+  "date": "2026-10-28",
+  "engine": "JavaFX GUI buttons and native Java macOS capture",
+  "run_id": "f6f66c54",
+  "passed": true,
+  "client_pid": 67498,
+  "interface": "lo0",
+  "build_jar_sha256": "9da1b0a0ed1732d9d0725d67c20e10b8fee1f5d3a255ec5be4386d9f8d138864",
+  "ui_observations": {
+    "start_reported_active_both_cycles": true,
+    "stop_reported_stopped_both_cycles": true,
+    "restart_same_window": true,
+    "queue_drops_both_cycles": 0,
+    "kernel_drops_both_cycles": 0,
+    "first_count_before_and_after_stopped_traffic": 60,
+    "save_used_native_dialog_both_cycles": true
+  },
+  "process_cleanup": {
+    "first_tcpdump_pid": 76174,
+    "first_parent_pid": 76171,
+    "second_tcpdump_pid": 76835,
+    "second_parent_pid": 76834,
+    "all_absent_after_stop": true
+  },
+  "cycles": [
+    {
+      "cycle": "fixed-first",
+      "passed": true,
+      "session": "results/java-gui-f6f66c54-fixed-first.netview.json",
+      "session_sha256": "69176fa2a4e90b80400e1104e6065c51287e45ad77afbf02c1bee9eb10fa5771",
+      "packets": 60,
+      "connections": 4,
+      "raw_bytes": 137062,
+      "java_streams_match_python": true,
+      "other_cycle_and_stopped_messages_absent": true,
+      "checks": [
+        {
+          "scenario": "http",
+          "passed": true,
+          "directions": {
+            "request": {
+              "passed": true,
+              "body_bytes": 223,
+              "sha256": "bccb79177171445077c9c5e0c5c0a98655baddef7f51a4c2c2798df1f597a651",
+              "expected_sha256": "bccb79177171445077c9c5e0c5c0a98655baddef7f51a4c2c2798df1f597a651"
+            },
+            "response": {
+              "passed": true,
+              "body_bytes": 223,
+              "sha256": "bccb79177171445077c9c5e0c5c0a98655baddef7f51a4c2c2798df1f597a651",
+              "expected_sha256": "bccb79177171445077c9c5e0c5c0a98655baddef7f51a4c2c2798df1f597a651"
+            }
+          }
+        },
+        {
+          "scenario": "http-large",
+          "passed": true,
+          "directions": {
+            "request": {
+              "passed": true,
+              "body_bytes": 65775,
+              "sha256": "938ac0af9f9708e95574fa4ff0738161c070c6938e790da1e6e07fce4cb4d972",
+              "expected_sha256": "938ac0af9f9708e95574fa4ff0738161c070c6938e790da1e6e07fce4cb4d972"
+            },
+            "response": {
+              "passed": true,
+              "body_bytes": 65775,
+              "sha256": "938ac0af9f9708e95574fa4ff0738161c070c6938e790da1e6e07fce4cb4d972",
+              "expected_sha256": "938ac0af9f9708e95574fa4ff0738161c070c6938e790da1e6e07fce4cb4d972"
+            }
+          }
+        },
+        {
+          "scenario": "tcp",
+          "passed": true,
+          "directions": {
+            "request": {
+              "passed": true,
+              "body_bytes": 222,
+              "sha256": "943cbe9ca6871d7f3a87b2bcaa2353f183d17401a9c7e015392b36307a7b9cb6",
+              "expected_sha256": "943cbe9ca6871d7f3a87b2bcaa2353f183d17401a9c7e015392b36307a7b9cb6"
+            },
+            "response": {
+              "passed": true,
+              "body_bytes": 222,
+              "sha256": "943cbe9ca6871d7f3a87b2bcaa2353f183d17401a9c7e015392b36307a7b9cb6",
+              "expected_sha256": "943cbe9ca6871d7f3a87b2bcaa2353f183d17401a9c7e015392b36307a7b9cb6"
+            }
+          }
+        },
+        {
+          "scenario": "udp",
+          "passed": true,
+          "directions": {
+            "request": {
+              "passed": true,
+              "body_bytes": 222,
+              "sha256": "de99f2c99308e2b111ea6c254e5ceb5ffc318e7e558bbf4e434eb6fb7d1ce40a",
+              "expected_sha256": "de99f2c99308e2b111ea6c254e5ceb5ffc318e7e558bbf4e434eb6fb7d1ce40a"
+            },
+            "response": {
+              "passed": true,
+              "body_bytes": 222,
+              "sha256": "de99f2c99308e2b111ea6c254e5ceb5ffc318e7e558bbf4e434eb6fb7d1ce40a",
+              "expected_sha256": "de99f2c99308e2b111ea6c254e5ceb5ffc318e7e558bbf4e434eb6fb7d1ce40a"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cycle": "fixed-second",
+      "passed": true,
+      "session": "results/java-gui-f6f66c54-fixed-second.netview.json",
+      "session_sha256": "a2e018a9644fe239598f95267636578aca5b5f46630707e21c622f42165deb51",
+      "packets": 60,
+      "connections": 4,
+      "raw_bytes": 137062,
+      "java_streams_match_python": true,
+      "other_cycle_and_stopped_messages_absent": true,
+      "checks": [
+        {
+          "scenario": "http",
+          "passed": true,
+          "directions": {
+            "request": {
+              "passed": true,
+              "body_bytes": 223,
+              "sha256": "b07484fa1fe9d20fb9a1b6ef7024c0bebd5be1c23a7e6c7473b1f06431935065",
+              "expected_sha256": "b07484fa1fe9d20fb9a1b6ef7024c0bebd5be1c23a7e6c7473b1f06431935065"
+            },
+            "response": {
+              "passed": true,
+              "body_bytes": 223,
+              "sha256": "b07484fa1fe9d20fb9a1b6ef7024c0bebd5be1c23a7e6c7473b1f06431935065",
+              "expected_sha256": "b07484fa1fe9d20fb9a1b6ef7024c0bebd5be1c23a7e6c7473b1f06431935065"
+            }
+          }
+        },
+        {
+          "scenario": "http-large",
+          "passed": true,
+          "directions": {
+            "request": {
+              "passed": true,
+              "body_bytes": 65775,
+              "sha256": "1c08cda260a3c5b236ea56821d8687d106ab197177d7a24c498b0b0f25ae3d6b",
+              "expected_sha256": "1c08cda260a3c5b236ea56821d8687d106ab197177d7a24c498b0b0f25ae3d6b"
+            },
+            "response": {
+              "passed": true,
+              "body_bytes": 65775,
+              "sha256": "1c08cda260a3c5b236ea56821d8687d106ab197177d7a24c498b0b0f25ae3d6b",
+              "expected_sha256": "1c08cda260a3c5b236ea56821d8687d106ab197177d7a24c498b0b0f25ae3d6b"
+            }
+          }
+        },
+        {
+          "scenario": "tcp",
+          "passed": true,
+          "directions": {
+            "request": {
+              "passed": true,
+              "body_bytes": 222,
+              "sha256": "ec157e5d1eb795646332b33c50b06bee59c14143271e59b4786cca3556268f71",
+              "expected_sha256": "ec157e5d1eb795646332b33c50b06bee59c14143271e59b4786cca3556268f71"
+            },
+            "response": {
+              "passed": true,
+              "body_bytes": 222,
+              "sha256": "ec157e5d1eb795646332b33c50b06bee59c14143271e59b4786cca3556268f71",
+              "expected_sha256": "ec157e5d1eb795646332b33c50b06bee59c14143271e59b4786cca3556268f71"
+            }
+          }
+        },
+        {
+          "scenario": "udp",
+          "passed": true,
+          "directions": {
+            "request": {
+              "passed": true,
+              "body_bytes": 222,
+              "sha256": "3b259cfb8858ea2990f8c5c5e6adc5e6a943c37ae8059aecf900aa5da40a0c4e",
+              "expected_sha256": "3b259cfb8858ea2990f8c5c5e6adc5e6a943c37ae8059aecf900aa5da40a0c4e"
+            },
+            "response": {
+              "passed": true,
+              "body_bytes": 222,
+              "sha256": "3b259cfb8858ea2990f8c5c5e6adc5e6a943c37ae8059aecf900aa5da40a0c4e",
+              "expected_sha256": "3b259cfb8858ea2990f8c5c5e6adc5e6a943c37ae8059aecf900aa5da40a0c4e"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "scope": "Controlled localhost IPv4, one PID; does not cover Safari, VPN, IPv6 live, sustained load or other operating systems."
+}

@@ -1,0 +1,23 @@
+.root { -fx-font-family: "System"; -fx-font-size: 13px; -fx-base: #182333; -fx-background: #101927; -fx-control-inner-background: #142031; -fx-accent: #3c88d4; }
+.label { -fx-text-fill: #e5edf7; }
+.title { -fx-font-size: 27px; -fx-font-weight: bold; }
+.header { -fx-alignment: center-left; }
+.section { -fx-font-size: 14px; -fx-font-weight: bold; }
+.muted { -fx-text-fill: #98adc4; -fx-font-size: 12px; }
+.status { -fx-text-fill: #abc9eb; -fx-padding: 5 0 0 0; }
+.button { -fx-padding: 8 13; -fx-background-radius: 6; -fx-cursor: hand; }
+.button.primary { -fx-base: #286eb0; -fx-text-fill: white; -fx-font-weight: bold; }
+.text-field { -fx-padding: 9; -fx-background-radius: 5; -fx-text-fill: #e5edf7; -fx-prompt-text-fill: #98adc4; }
+.split-pane { -fx-background-color: transparent; -fx-padding: 0; }
+.split-pane-divider { -fx-background-color: #101927; -fx-padding: 5; }
+.table-view { -fx-background-color: #142031; -fx-border-color: #2a394d; -fx-border-radius: 5; }
+.table-row-cell { -fx-cell-size: 30px; }
+.table-row-cell:filled:selected { -fx-background-color: #285884; }
+.table-cell { -fx-border-color: transparent; -fx-text-fill: #e5edf7; -fx-alignment: center-left; }
+.column-header { -fx-background-color: #1b2a3d; -fx-padding: 7 0; }
+.column-header .label { -fx-alignment: center-left; -fx-padding: 0 5; -fx-text-fill: #afc5de; }
+.data { -fx-font-family: "Menlo", "Consolas", monospace; -fx-font-size: 12px; -fx-control-inner-background: #0d1724; -fx-text-fill: #dce8f5; }
+.tab-pane { -fx-tab-min-height: 30px; }
+.tab-pane .tab-header-background { -fx-background-color: #101927; }
+.tab { -fx-padding: 5 12; }
+.text-area .content { -fx-padding: 12; }
